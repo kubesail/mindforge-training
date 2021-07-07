@@ -7,6 +7,6 @@ ADD requirements.txt .
 
 RUN pip install -r requirements.txt
 
-ADD server.py .
+ADD src/server.py .
 
 CMD ["python", "-u", "server.py"]
